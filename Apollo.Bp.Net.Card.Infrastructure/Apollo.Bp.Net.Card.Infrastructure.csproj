@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Apollo.Bp.Net.Card.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Apollo.Bp.Net.Card.Core\Apollo.Bp.Net.Card.Core.csproj" />
+        <ProjectReference Include="..\Apollo.Bp.Net.Card.Data\Apollo.Bp.Net.Card.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+		<PackageReference Include="Apollo.Bp.Net.Kafka" Version="1.0.12" />
+        <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <AdditionalFiles Include="..\stylecop.json">
+            <Link>stylecop.json</Link>
+        </AdditionalFiles>
+    </ItemGroup>
+
+</Project>

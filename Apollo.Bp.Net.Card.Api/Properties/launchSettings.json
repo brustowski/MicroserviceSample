@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Apollo.Bp.Net.Card.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:16436;http://localhost:16437"
+    }
+  }
+}
